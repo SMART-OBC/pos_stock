@@ -6,7 +6,7 @@
         <field name="inherit_id" ref="product.product_template_only_form_view"/>
         <field name="arch" type="xml">
             <field name="default_code" position="after">
-                <field name="show_qty_on_hand" invisible="0"/>
+                <field name="show_qty_on_hand" invisible="1"/>
             </field>
         </field>
     </record>
@@ -16,7 +16,7 @@
         <field name="inherit_id" ref="product.product_normal_form_view"/>
         <field name="arch" type="xml">
             <field name="default_code" position="after">
-                <field name="show_qty_on_hand" invisible="0"/>
+                <field name="show_qty_on_hand" invisible="1"/>
             </field>
         </field>
     </record>
