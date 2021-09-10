@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+<!--Modifying the POS screen UI-->
+    <t t-name="ProductItem" t-inherit="point_of_sale.ProductItem" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[hasclass('product-name')]" position="after">
+            <div t-if="props.product.show_qty_on_hand">
+                <span t-if="props.product.qty_available &gt; 0" class="sale_available" >
+                    Qty on hand <t t-esc="props.product.qty_available"/>
+                </span>
+                <span t-if="props.product.qty_available &lt; 1" class="sale_not_available">
+                    Qty on hand <t t-esc="props.product.qty_available"/>
+                </span>
+            </div>
+        </xpath>
+    </t>
+
+</templates>

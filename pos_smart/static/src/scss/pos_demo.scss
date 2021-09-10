@@ -1,0 +1,19 @@
+.sale_available {
+    top: 21px;
+    line-height: 15px;
+    right: 2px;
+    background: #CDDC39;
+    position: absolute;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+
+.sale_not_available {
+    top: 21px;
+    line-height: 15px;
+    right: 2px;
+    background: red;
+    position: absolute;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
