@@ -10,7 +10,7 @@
                 </span>
                 <span t-if="props.product.qty_available &lt; 1" class="sale_not_available">
                     <t t-if="props.product.show_neg" t-esc="props.product.qty_available"/>
-                    <t t-else=""></t>
+                    <t t-else="">0</t>
                 </span>
                 <span t-if="props.product.qty_available &lt; 1" class="out_of_stock">
                     <t t-if="!props.product.can_still_sold_neg">
