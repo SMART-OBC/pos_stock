@@ -3,7 +3,7 @@
 
 {
     'name': 'Point of Sale customization',
-    'version': '1.0.0',
+    'version': '1.0.1',
     'category': 'Point Of Sale',
     'sequence': 20,
     'summary': 'Add Qty on hand, pop up error for out of stock',

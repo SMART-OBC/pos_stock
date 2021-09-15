@@ -5,8 +5,10 @@
         <field name="model">product.template</field>
         <field name="inherit_id" ref="product.product_template_only_form_view"/>
         <field name="arch" type="xml">
-            <field name="default_code" position="after">
-                <field name="show_qty_on_hand" invisible="1"/>
+            <field name="available_in_pos" position="after">
+                <field name="show_qty_on_hand"/>
+                <field name="show_neg"/>
+                <field name="can_still_sold_neg"/>
             </field>
         </field>
     </record>
@@ -15,8 +17,10 @@
         <field name="model">product.product</field>
         <field name="inherit_id" ref="product.product_normal_form_view"/>
         <field name="arch" type="xml">
-            <field name="default_code" position="after">
-                <field name="show_qty_on_hand" invisible="1"/>
+            <field name="available_in_pos" position="after">
+                <field name="show_qty_on_hand"/>
+                <field name="show_neg"/>
+                <field name="can_still_sold_neg"/>
             </field>
         </field>
     </record>

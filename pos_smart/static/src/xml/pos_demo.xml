@@ -9,10 +9,13 @@
                     <t t-esc="props.product.qty_available"/>
                 </span>
                 <span t-if="props.product.qty_available &lt; 1" class="sale_not_available">
-                    <t t-esc="props.product.qty_available"/>
+                    <t t-if="props.product.show_neg" t-esc="props.product.qty_available"/>
+                    <t t-else=""></t>
                 </span>
                 <span t-if="props.product.qty_available &lt; 1" class="out_of_stock">
-                    Out of Stock
+                    <t t-if="!props.product.can_still_sold_neg">
+                        Out of Stock
+                    </t>
                 </span>
             </div>
         </xpath>
