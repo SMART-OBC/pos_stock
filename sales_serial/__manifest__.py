@@ -4,7 +4,7 @@
 {
     'name': 'Sales company serial',
     'version': '1.0.1',
-    'category': 'Sale',
+    'category': 'Sale ',
     'sequence': 20,
     'summary': 'Places Company prefix with sale order',
     'description': "",
