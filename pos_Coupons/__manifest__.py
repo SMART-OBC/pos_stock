@@ -4,7 +4,7 @@
 {
     'name': 'POS POPUP',
     'version': '1.0.0',
-    'category': 'POS ',
+    'category': 'POS',
     'sequence': 20,
     'summary': 'Places POP UP on Product',
     'description': "",
