@@ -6,6 +6,7 @@
            <script type="text/javascript" src="/pos_Coupons/static/src/js/Coupons.js"/>
              <script type="text/javascript" src="/pos_Coupons/static/src/js/CouponProductsPopup.js"/>
              <script type="text/javascript" src="/pos_Coupons/static/src/js/pos_demo.js"/>
+             <script type="text/javascript" src="/pos_Coupons/static/src/js/pos_models.js"/>
        </xpath>
    </template>
  </data>
